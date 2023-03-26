@@ -1,0 +1,27 @@
+GET http://localhost:3001/users
+
+###
+
+POST http://localhost:3001/user/new
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "password": "mypassword"
+}
+
+###
+
+POST http://localhost:3001/user/new
+Content-Type: application/json
+
+{
+  "name": "Bob Smith",
+  "email": "bob.smith@example.com",
+  "password": "secretpassword"
+}
+
+###
+
+DELETE http://localhost:3001/user/641ff8ab93359ed3db465466
